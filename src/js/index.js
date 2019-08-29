@@ -27,12 +27,12 @@ let generateRandomNumber = () => {
     "Q",
     "K"
   ];
-  let indexNumbers = Math.floor(Math.random() * numbers.length);
-  return numbers[indexNumbers];
+  let iNumbers = Math.floor(Math.random() * numbers.length);
+  return numbers[iNumbers];
 };
 
 let generateRandomSuit = () => {
-  let suit = ["diamon", "spade", "heart", "club"];
-  let indexSuit = Math.floor(Math.random() * suit.length);
-  return suit[indexSuit];
+  let suit = ["diamond", "spade", "heart", "club"];
+  let iSuit = Math.floor(Math.random() * suit.length);
+  return suit[iSuit];
 };
